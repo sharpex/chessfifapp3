@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Only one real URL to list — this app has no client-side router (see the codebase's
+     own established pattern of reading state like shared-challenge-links or password-reset
+     tokens off query params rather than distinct routes), so there's nothing else
+     crawlable yet. If /terms and /privacy (currently just modals fed by GET /legal/terms
+     and GET /legal/privacy — see legal.service.js) ever become real standalone pages, or
+     any other public route is added, list them here too. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://chessfifa.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

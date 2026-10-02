@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+		/>
+		<title>ChessFifa — Play Chess Online &amp; Make Money</title>
+		<meta
+			name="description"
+			content="Play chess online against AI or real opponents on ChessFifa. Challenge players for make money."
+		/>
+		<meta
+			name="keywords"
+			content="chess online, play chess, chess wagering, chess for money, online chess Kenya, chess app, chess challenge, real money chess, chessfifa"
+		/>
+		<meta name="robots" content="index, follow" />
+		<meta name="author" content="ChessFifa" />
+
+		<!-- Canonical / Open Graph / Twitter Card — https://chessfifa.com/ below is a
+     placeholder domain; replace it with the app's real deployed domain once it has one,
+     everywhere it appears in this block (the canonical link, every og:url/og:image, and
+     both twitter:image entries). A canonical tag and OG/Twitter urls pointing at the wrong
+     domain are worse than having none at all (they actively mislead crawlers and
+     link-preview bots about where the real content lives), so don't ship this file to
+     production unedited. -->
+		<link rel="canonical" href="https://chessfifa.com/" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://chessfifa.com/" />
+		<meta property="og:site_name" content="ChessFifa" />
+		<meta
+			property="og:title"
+			content="ChessFifa — Play Chess Online &amp; Make Money"
+		/>
+		<meta
+			property="og:description"
+			content="Play chess online. Challenge players & make money."
+		/>
+		<meta
+			property="og:image"
+			content="https://chessfifa.com/icons/icon-512.png"
+		/>
+		<meta property="og:locale" content="en_KE" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta
+			name="twitter:title"
+			content="ChessFifa — Play Chess Online &amp; Make Money"
+		/>
+		<meta
+			name="twitter:description"
+			content="Play chess online. Challenge players & make money."
+		/>
+		<meta
+			name="twitter:image"
+			content="https://chessfifa.com/icons/icon-512.png"
+		/>
+
+		<!-- Structured data (schema.org) — helps eligibility for rich results; describes what the
+     app IS rather than duplicating the meta description verbatim. -->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "WebApplication",
+				"name": "ChessFifa",
+				"url": "https://chessfifa.com/",
+				"description": "Play chess online. Challenge players & make money.",
+				"applicationCategory": "GameApplication",
+				"operatingSystem": "Any",
+				"offers": {
+					"@type": "Offer",
+					"price": "0",
+					"priceCurrency": "KES"
+				}
+			}
+		</script>
+
+		<!-- Theme / PWA -->
+		<meta name="theme-color" content="#1A120D" />
+		<!-- No manifest <link> here on purpose — vite-plugin-pwa injects it automatically (see
+     vite.config.js), for both `vite build` and, now that devOptions.enabled is on, `vite
+     dev` too. A hand-written tag here previously pointed at the same default filename by
+     coincidence, which masked the fact that dev mode wasn't actually serving it at all. -->
+
+		<!-- Favicons -->
+		<link rel="icon" type="image/x-icon" href="/icons/favicon.ico" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="/icons/favicon-32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="/icons/favicon-16.png"
+		/>
+
+		<!-- iOS: standalone PWA behavior + icon -->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta
+			name="apple-mobile-web-app-status-bar-style"
+			content="black-translucent"
+		/>
+		<meta name="apple-mobile-web-app-title" content="ChessFifa" />
+		<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+
+		<!-- iOS splash screens (shown briefly on launch, before the app shell paints) -->
+		<link
+			rel="apple-touch-startup-image"
+			href="/splash/splash-iphone-se.png"
+			media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/splash/splash-iphone-8-plus.png"
+			media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/splash/splash-iphone-x.png"
+			media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/splash/splash-iphone-12-13.png"
+			media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/splash/splash-iphone-14-pro.png"
+			media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/splash/splash-iphone-14-pro-max.png"
+			media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/splash/splash-ipad.png"
+			media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/splash/splash-ipad-pro-11.png"
+			media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/splash/splash-ipad-pro-12.png"
+			media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)"
+		/>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+			rel="stylesheet"
+		/>
+		<script type="module" crossorigin src="/assets/index-DCtJp4ZY.js"></script>
+		<link rel="stylesheet" crossorigin href="/assets/index-DjfcTPMn.css">
+	<link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
+	<body>
+		<div id="root"></div>
+		<noscript
+			>ChessFifa needs JavaScript enabled to play — please enable it in your
+			browser to load the chessboard and matchmaking.</noscript
+		>
+		<!-- Paystack Inline JS — deposits/withdrawals resume a transaction the backend already
+     initialized (see src/utils/paystackClient.js) rather than creating one from the
+     browser. -->
+		<script src="https://js.paystack.co/v2/inline.js"></script>
+	</body>
+</html>
